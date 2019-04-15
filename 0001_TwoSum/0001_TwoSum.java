@@ -1,11 +1,11 @@
-class Solution {
 /**
  * https://leetcode.com/problems/two-sum/
  * Runtime: 74 ms, faster than 5.03% of Java online submissions for Two Sum.
  * Memory Usage: 38.4 MB, less than 52.65% of Java online submissions for Two Sum.
  */
+
+class Solution {
     public int[] twoSum(int[] nums, int target) {
-    
         int solution[] = new int[2];
         
         outerloop:
