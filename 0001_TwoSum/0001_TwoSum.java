@@ -6,16 +6,24 @@
 
 class Solution {
 	public int[] twoSum(int[] nums, int target) {
-		int solution[] = new int[2];
+		int solution[] = new int[2]; // array of ints to return
 
-		outerloop: for (int i = 0; i < nums.length; i++) {
-			int result;
+		// label allowing us to exit top loop
+		outerloop: 
+		for (int i = 0; i < nums.length; i++) {
+			int result; // int to hold result of subtraction
+
+			// subtract the target from one of the options
 			result = (target - nums[i]);
 
+			// loop through all options to see if the result of the subtraction matches
 			for (int j = 0; j < nums.length; j++) {
+				// if it matches and it's not because we're subtracting half of the number and matching ourselves
 				if ((result == nums[j]) && (i != j)) {
+					// place results in int array
 					solution[0] = i;
 					solution[1] = j;
+					// kill the loop via the label
 					break outerloop;
 				}
 			}
