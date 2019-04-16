@@ -1,7 +1,7 @@
 /**
- * https://leetcode.com/problems/reverse-integer/ Runtime: 5 ms, faster than
- * 78.97% of Java online submissions for Reverse Integer. Memory Usage: 34.1 MB,
- * less than 100.00% of Java online submissions for Reverse Integer.
+ * https://leetcode.com/problems/reverse-integer/ 
+ * Runtime: 5 ms, faster than 78.97% of Java online submissions for Reverse Integer. 
+ * Memory Usage: 34.1 MB, less than 100.00% of Java online submissions for Reverse Integer.
  */
 
 class Solution {
