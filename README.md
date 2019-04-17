@@ -1,8 +1,6 @@
 # LeetCode
 ## Repo Badges
-[![Build Status]()]() [![CodeFactor]()]() [![codecov]()]()
-
-| Azure CI (macOS)                               | Code Coverage Status     | CodeFactor Grade         |
+| TravisCI Status                              | Code Coverage Status     | CodeFactor Grade         |
 |:-----------------------------------------------|:-------------------------|:-------------------------|
 | [![travisci-image][]][travisci-site] | [![cc-image][]][cc-site] | [![cf-image][]][cf-site] |
 
