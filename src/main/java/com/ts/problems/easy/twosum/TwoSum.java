@@ -4,7 +4,7 @@
  * Memory Usage: 38.4 MB, less than 52.65% of Java online submissions for Two Sum.
  */
 
- package com.ts.problems.easy.twosum;
+package com.ts.problems.easy.twosum;
 
 class TwoSum {
 	public int[] twoSum(int[] nums, int target) {
