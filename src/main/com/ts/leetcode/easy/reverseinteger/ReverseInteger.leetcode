@@ -4,6 +4,8 @@
  * Memory Usage: 34.1 MB, less than 100.00% of Java online submissions for Reverse Integer.
  */
 
+package src.main.com.ts.leetcode.easy.reverseinteger;
+
 class Solution {
 	public int reverse(int x) {
 		String xstring; // string to store casted int in

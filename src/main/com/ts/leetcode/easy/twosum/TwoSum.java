@@ -4,7 +4,9 @@
  * Memory Usage: 38.4 MB, less than 52.65% of Java online submissions for Two Sum.
  */
 
-class Solution {
+ package src.main.com.ts.leetcode.easy.twosum;
+
+class TwoSum {
 	public int[] twoSum(int[] nums, int target) {
 		int solution[] = new int[2]; // array of ints to return
 
