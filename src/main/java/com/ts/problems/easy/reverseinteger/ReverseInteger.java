@@ -4,7 +4,7 @@
  * Memory Usage: 34.1 MB, less than 100.00% of Java online submissions for Reverse Integer.
  */
 
-package src.main.com.ts.leetcode.easy.reverseinteger;
+package com.ts.problems.easy.reverseinteger;
 
 import java.util.Arrays;
 import java.util.Collections;
