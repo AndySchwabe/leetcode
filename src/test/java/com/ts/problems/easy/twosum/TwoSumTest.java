@@ -21,8 +21,8 @@ class TwoSumTest{
 		values[2] = 7;
 		values[3] = 2;
 
-		testExpected[0] = 3;
-		testExpected[1] = 2;
+		testExpected[0] = 2;
+		testExpected[1] = 3;
 		
 		targetValue = 9;
 
