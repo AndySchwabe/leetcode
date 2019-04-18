@@ -16,13 +16,13 @@ class TwoSumTest{
 		int[] testExpected = new int[2];
 		int targetValue;
 
-		values[0] = 2;
-		values[1] = 7;
-		values[2] = 11;
-		values[3] = 15;
+		values[0] = 11;
+		values[1] = 15;
+		values[2] = 2;
+		values[3] = 7;
 
-		testExpected[0] = 0;
-		testExpected[1] = 1;
+		testExpected[0] = 2;
+		testExpected[1] = 3;
 		
 		targetValue = 9;
 
