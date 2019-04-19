@@ -9,9 +9,7 @@ package com.ts.problems.easy.twosum;
 class TwoSum {
 	protected int[] twoSum(int[] nums, int target) {
 		int solution[] = new int[2]; // array of ints to return
-
-		// label allowing us to exit top loop
-		outerloop: 
+		
 		for (int i = 0; i < nums.length; i++) {
 			int result; // int to hold result of subtraction
 
@@ -23,10 +21,8 @@ class TwoSum {
 				// if it matches and it's not because we're subtracting half of the number and matching ourselves
 				if ((result == nums[j]) && (i != j)) {
 					// place results in int array
-					solution[0] = i;
-					solution[1] = j;
-					// kill the loop via the label
-					break outerloop;
+					solution[0] = j;
+					solution[1] = i;
 				}
 			}
 		}

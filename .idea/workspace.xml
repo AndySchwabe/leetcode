@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bcbcd6b6-d77b-470b-bf8b-afbba62704ff" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ts/problems/easy/romantointeger/RomanToInteger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ts/problems/easy/romantointeger/RomanToInteger.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ts/problems/easy/twosum/TwoSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ts/problems/easy/twosum/TwoSum.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/classes/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -17,24 +17,24 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/ts/problems/easy/romantointeger/RomanToInteger.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/ts/problems/easy/twosum/TwoSumTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" column="49" selection-start-line="1" selection-start-column="49" selection-end-line="1" selection-end-column="49" />
+            <state relative-caret-position="240">
+              <caret line="16" column="24" lean-forward="true" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="24" />
               <folding>
+                <element signature="n#!!doc" expanded="true" />
                 <element signature="imports" expanded="true" />
-                <element signature="e#219#227#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/ts/problems/easy/twosum/TwoSum.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret selection-end-line="4" selection-end-column="3" />
+            <state relative-caret-position="360">
+              <caret line="24" column="35" selection-start-line="24" selection-start-column="35" selection-end-line="24" selection-end-column="35" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -51,15 +51,6 @@
                 <element signature="n#!!doc" expanded="true" />
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="19" column="5" lean-forward="true" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -88,11 +79,11 @@
         <option value="$PROJECT_DIR$/src/test/java/com/ts/problems/easy/twosum/TwoSumTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/ts/problems/easy/romantointeger/RomanToIntegerTest.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ts/problems/easy/twosum/TwoSum.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ts/problems/easy/reverseinteger/ReverseInteger.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ts/problems/easy/palindromenumber/PalindromeNumber.java" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/src/main/java/com/ts/problems/easy/romantointeger/RomanToInteger.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ts/problems/easy/twosum/TwoSum.java" />
       </list>
     </option>
   </component>
@@ -282,7 +273,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.RomanToIntegerTest">
+  <component name="RunManager" selected="JUnit.TwoSumTest">
     <configuration name="RomanToIntegerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="leetcode" />
       <option name="PACKAGE_NAME" value="com.ts.problems.easy.romantointeger" />
@@ -297,16 +288,6 @@
       <option name="PACKAGE_NAME" value="com.ts.problems.easy.romantointeger" />
       <option name="MAIN_CLASS_NAME" value="com.ts.problems.easy.romantointeger.RomanToIntegerTest" />
       <option name="METHOD_NAME" value="resultShouldBe1994" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="RomanToIntegerTest.resultShouldBe4" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="leetcode" />
-      <option name="PACKAGE_NAME" value="com.ts.problems.easy.romantointeger" />
-      <option name="MAIN_CLASS_NAME" value="com.ts.problems.easy.romantointeger.RomanToIntegerTest" />
-      <option name="METHOD_NAME" value="resultShouldBe4" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -332,13 +313,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TwoSumTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="leetcode" />
+      <option name="PACKAGE_NAME" value="com.ts.problems.easy.twosum" />
+      <option name="MAIN_CLASS_NAME" value="com.ts.problems.easy.twosum.TwoSumTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TwoSumTest" />
         <item itemvalue="JUnit.RomanToIntegerTest" />
         <item itemvalue="JUnit.RomanToIntegerTest.resultShouldBe1994" />
         <item itemvalue="JUnit.RomanToIntegerTest.resultShouldBe58" />
         <item itemvalue="JUnit.RomanToIntegerTest.resultShouldBe9" />
-        <item itemvalue="JUnit.RomanToIntegerTest.resultShouldBe4" />
       </list>
     </recent_temporary>
   </component>
@@ -352,14 +342,11 @@
       <workItem from="1555510609076" duration="753000" />
       <workItem from="1555513363489" duration="5267000" />
       <workItem from="1555593765487" duration="8098000" />
-      <workItem from="1555678121818" duration="6534000" />
+      <workItem from="1555678121818" duration="6846000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="RomanToIntegerTest_resultShouldBe4 - 2019.04.19 at 11h 22m 47s.xml">
-      <configuration name="RomanToIntegerTest.resultShouldBe4" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="RomanToIntegerTest_resultShouldBe9 - 2019.04.19 at 11h 22m 56s.xml">
       <configuration name="RomanToIntegerTest.resultShouldBe9" configurationId="JUnit" />
     </history-entry>
@@ -387,9 +374,12 @@
     <history-entry file="RomanToIntegerTest - 2019.04.19 at 14h 16m 20s.xml">
       <configuration name="RomanToIntegerTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="TwoSumTest - 2019.04.19 at 14h 27m 08s.xml">
+      <configuration name="TwoSumTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20652000" />
+    <option name="totallyTimeSpent" value="20964000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -404,14 +394,14 @@
     <frame x="0" y="23" width="1920" height="1113" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.28434506" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.28434506" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
       <window_info id="Favorites" order="4" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32963374" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3408423" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3408423" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -499,17 +489,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/ts/problems/easy/twosum/TwoSumTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="24" lean-forward="true" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="24" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/ts/problems/easy/palindromenumber/PalindromeNumberTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="855">
@@ -566,23 +545,35 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ts/problems/easy/twosum/TwoSum.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ts/problems/easy/romantointeger/RomanToInteger.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="4" selection-end-column="3" />
+        <state relative-caret-position="210">
+          <caret line="14" column="19" lean-forward="true" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#219#227#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ts/problems/easy/romantointeger/RomanToInteger.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/ts/problems/easy/twosum/TwoSumTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="49" selection-start-line="1" selection-start-column="49" selection-end-line="1" selection-end-column="49" />
+        <state relative-caret-position="240">
+          <caret line="16" column="24" lean-forward="true" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="24" />
           <folding>
+            <element signature="n#!!doc" expanded="true" />
             <element signature="imports" expanded="true" />
-            <element signature="e#219#227#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ts/problems/easy/twosum/TwoSum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" column="35" selection-start-line="24" selection-start-column="35" selection-end-line="24" selection-end-column="35" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
           </folding>
         </state>
       </provider>
