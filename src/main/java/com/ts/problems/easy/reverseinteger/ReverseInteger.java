@@ -10,7 +10,7 @@ import java.util.Arrays;
 import java.util.Collections;
 
 class ReverseInteger {
-	public int reverse(int x) {
+	protected int reverse(int x) {
 		String xstring; // string to store casted int in
 		String[] xarray; // array to store chars in
 		String xreversedstring; // string to store flipped string array in

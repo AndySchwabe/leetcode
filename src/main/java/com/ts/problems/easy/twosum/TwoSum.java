@@ -7,7 +7,7 @@
 package com.ts.problems.easy.twosum;
 
 class TwoSum {
-	public int[] twoSum(int[] nums, int target) {
+	protected int[] twoSum(int[] nums, int target) {
 		int solution[] = new int[2]; // array of ints to return
 
 		// label allowing us to exit top loop

@@ -2,10 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bcbcd6b6-d77b-470b-bf8b-afbba62704ff" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ts/problems/easy/romantointeger/RomanToInteger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/ts/problems/easy/romantointeger/RomanToIntegerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode.iml" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/ts/problems/easy/palindromenumber/PalindromeNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ts/problems/easy/palindromenumber/PalindromeNumber.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ts/problems/easy/reverseinteger/ReverseInteger.leetcode" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ts/problems/easy/twosum/TwoSum.leetcode" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ts/problems/easy/reverseinteger/ReverseInteger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ts/problems/easy/reverseinteger/ReverseInteger.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ts/problems/easy/twosum/TwoSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ts/problems/easy/twosum/TwoSum.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/classes/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -21,10 +27,23 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/ts/problems/easy/palindromenumber/PalindromeNumberTest.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/ts/problems/easy/romantointeger/RomanToInteger.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="6" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
+            <state relative-caret-position="473">
+              <caret line="55" column="9" selection-start-line="55" selection-start-column="9" selection-end-line="55" selection-end-column="9" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#219#227#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/ts/problems/easy/romantointeger/RomanToIntegerTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="810">
+              <caret line="54" column="51" lean-forward="true" selection-start-line="54" selection-start-column="51" selection-end-line="54" selection-end-column="51" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
                 <element signature="imports" expanded="true" />
@@ -34,53 +53,22 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/ts/problems/easy/palindromenumber/PalindromeNumber.java">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" column="93" selection-start-line="3" selection-start-column="93" selection-end-line="3" selection-end-column="93" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/ts/problems/easy/reverseinteger/ReverseIntegerTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="645">
-              <caret line="43" selection-start-line="43" selection-end-line="57" selection-end-column="5" />
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/ts/problems/easy/reverseinteger/ReverseInteger.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="13" selection-start-line="13" selection-end-line="65" selection-end-column="25" />
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/ts/problems/easy/twosum/TwoSumTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="18" column="23" lean-forward="true" selection-start-line="18" selection-start-column="23" selection-end-line="18" selection-end-column="23" />
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="390">
+              <caret line="26" column="7" selection-start-line="26" selection-start-column="7" selection-end-line="26" selection-end-column="7" />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -89,16 +77,19 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/.editorconfig" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ts/problems/easy/reverseinteger/ReverseInteger.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ts/problems/easy/palindromenumber /PalindromeNumber.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ts/problems/easy/twosum/TwoSum.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ts/problems/easy/Easy.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ts/problems/Problems.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/java/com/ts/problems/easy/reverseinteger/ReverseIntegerTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/ts/problems/easy/palindromenumber/PalindromeNumberTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/ts/problems/easy/twosum/TwoSumTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/ts/problems/easy/romantointeger/RomanToIntegerTest.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ts/problems/easy/twosum/TwoSum.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ts/problems/easy/reverseinteger/ReverseInteger.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ts/problems/easy/palindromenumber/PalindromeNumber.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ts/problems/easy/romantointeger/RomanToInteger.java" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -126,10 +117,10 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-1081" />
-    <option name="y" value="-277" />
-    <option name="width" value="1105" />
-    <option name="height" value="1810" />
+    <option name="x" value="240" />
+    <option name="y" value="162" />
+    <option name="width" value="1440" />
+    <option name="height" value="835" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -184,6 +175,14 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="romantointeger" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="leetcode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="twosum" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -221,13 +220,20 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="romantointeger" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="leetcode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="twosum" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope">
         <subPane subId="Scope 'Tests'; set:Tests; class com.intellij.psi.search.scope.TestsScope">
           <expand>
@@ -239,6 +245,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -272,48 +279,51 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.PalindromeNumberTest">
-    <configuration name="PalindromeNumberTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.RomanToIntegerTest">
+    <configuration name="RomanToIntegerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="leetcode" />
-      <option name="PACKAGE_NAME" value="com.ts.problems.easy.palindromenumber" />
-      <option name="MAIN_CLASS_NAME" value="com.ts.problems.easy.palindromenumber.PalindromeNumberTest" />
+      <option name="PACKAGE_NAME" value="com.ts.problems.easy.romantointeger" />
+      <option name="MAIN_CLASS_NAME" value="com.ts.problems.easy.romantointeger.RomanToIntegerTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReverseIntegerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="RomanToIntegerTest.resultShouldBe1994" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="leetcode" />
-      <option name="PACKAGE_NAME" value="com.ts.problems.easy.reverseinteger" />
-      <option name="MAIN_CLASS_NAME" value="com.ts.problems.easy.reverseinteger.ReverseIntegerTest" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="PACKAGE_NAME" value="com.ts.problems.easy.romantointeger" />
+      <option name="MAIN_CLASS_NAME" value="com.ts.problems.easy.romantointeger.RomanToIntegerTest" />
+      <option name="METHOD_NAME" value="resultShouldBe1994" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TwoSumTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="RomanToIntegerTest.resultShouldBe4" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="leetcode" />
-      <option name="PACKAGE_NAME" value="com.ts.problems.easy.palindromenumber" />
-      <option name="MAIN_CLASS_NAME" value="com.ts.problems.easy.palindromenumber.TwoSumTest" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="PACKAGE_NAME" value="com.ts.problems.easy.romantointeger" />
+      <option name="MAIN_CLASS_NAME" value="com.ts.problems.easy.romantointeger.RomanToIntegerTest" />
+      <option name="METHOD_NAME" value="resultShouldBe4" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TwoSumTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="RomanToIntegerTest.resultShouldBe58" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="leetcode" />
-      <option name="PACKAGE_NAME" value="com.ts.problems.easy.twosum" />
-      <option name="MAIN_CLASS_NAME" value="com.ts.problems.easy.twosum.TwoSumTest" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="PACKAGE_NAME" value="com.ts.problems.easy.romantointeger" />
+      <option name="MAIN_CLASS_NAME" value="com.ts.problems.easy.romantointeger.RomanToIntegerTest" />
+      <option name="METHOD_NAME" value="resultShouldBe58" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TwoSumTest.resultShouldBeCorrect" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="RomanToIntegerTest.resultShouldBe9" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="leetcode" />
-      <option name="PACKAGE_NAME" value="com.ts.problems.easy.twosum" />
-      <option name="MAIN_CLASS_NAME" value="com.ts.problems.easy.twosum.TwoSumTest" />
-      <option name="METHOD_NAME" value="resultShouldBeCorrect" />
+      <option name="PACKAGE_NAME" value="com.ts.problems.easy.romantointeger" />
+      <option name="MAIN_CLASS_NAME" value="com.ts.problems.easy.romantointeger.RomanToIntegerTest" />
+      <option name="METHOD_NAME" value="resultShouldBe9" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -321,11 +331,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.PalindromeNumberTest" />
-        <item itemvalue="JUnit.TwoSumTest" />
-        <item itemvalue="JUnit.TwoSumTest.resultShouldBeCorrect" />
-        <item itemvalue="JUnit.TwoSumTest (1)" />
-        <item itemvalue="JUnit.ReverseIntegerTest" />
+        <item itemvalue="JUnit.RomanToIntegerTest" />
+        <item itemvalue="JUnit.RomanToIntegerTest.resultShouldBe1994" />
+        <item itemvalue="JUnit.RomanToIntegerTest.resultShouldBe58" />
+        <item itemvalue="JUnit.RomanToIntegerTest.resultShouldBe9" />
+        <item itemvalue="JUnit.RomanToIntegerTest.resultShouldBe4" />
       </list>
     </recent_temporary>
   </component>
@@ -338,44 +348,45 @@
       <updated>1555510602033</updated>
       <workItem from="1555510609076" duration="753000" />
       <workItem from="1555513363489" duration="5267000" />
-      <workItem from="1555593765487" duration="7497000" />
+      <workItem from="1555593765487" duration="8098000" />
+      <workItem from="1555678121818" duration="6339000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TwoSumTest - 2019.04.18 at 10h 08m 38s.xml">
-      <configuration name="TwoSumTest" configurationId="JUnit" />
+    <history-entry file="RomanToIntegerTest_resultShouldBe4 - 2019.04.19 at 11h 22m 47s.xml">
+      <configuration name="RomanToIntegerTest.resultShouldBe4" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ReverseIntegerTest - 2019.04.18 at 15h 46m 12s.xml">
-      <configuration name="ReverseIntegerTest" configurationId="JUnit" />
+    <history-entry file="RomanToIntegerTest_resultShouldBe9 - 2019.04.19 at 11h 22m 56s.xml">
+      <configuration name="RomanToIntegerTest.resultShouldBe9" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ReverseIntegerTest - 2019.04.18 at 15h 48m 34s.xml">
-      <configuration name="ReverseIntegerTest" configurationId="JUnit" />
+    <history-entry file="RomanToIntegerTest_resultShouldBe58 - 2019.04.19 at 11h 23m 00s.xml">
+      <configuration name="RomanToIntegerTest.resultShouldBe58" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TwoSumTest - 2019.04.18 at 15h 52m 01s.xml">
-      <configuration name="TwoSumTest" configurationId="JUnit" />
+    <history-entry file="RomanToIntegerTest_resultShouldBe58 - 2019.04.19 at 11h 39m 51s.xml">
+      <configuration name="RomanToIntegerTest.resultShouldBe58" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TwoSumTest_(1) - 2019.04.18 at 16h 12m 36s.xml">
-      <configuration name="TwoSumTest (1)" configurationId="JUnit" />
+    <history-entry file="RomanToIntegerTest_resultShouldBe1994 - 2019.04.19 at 11h 40m 18s.xml">
+      <configuration name="RomanToIntegerTest.resultShouldBe1994" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PalindromeNumberTest - 2019.04.18 at 16h 12m 51s.xml">
-      <configuration name="PalindromeNumberTest" configurationId="JUnit" />
+    <history-entry file="RomanToIntegerTest - 2019.04.19 at 14h 03m 20s.xml">
+      <configuration name="RomanToIntegerTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TwoSumTest - 2019.04.18 at 16h 39m 30s.xml">
-      <configuration name="TwoSumTest" configurationId="JUnit" />
+    <history-entry file="RomanToIntegerTest - 2019.04.19 at 14h 04m 34s.xml">
+      <configuration name="RomanToIntegerTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TwoSumTest - 2019.04.18 at 16h 39m 48s.xml">
-      <configuration name="TwoSumTest" configurationId="JUnit" />
+    <history-entry file="RomanToIntegerTest_resultShouldBe1994 - 2019.04.19 at 14h 05m 13s.xml">
+      <configuration name="RomanToIntegerTest.resultShouldBe1994" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PalindromeNumberTest - 2019.04.18 at 16h 50m 51s.xml">
-      <configuration name="PalindromeNumberTest" configurationId="JUnit" />
+    <history-entry file="RomanToIntegerTest_resultShouldBe1994 - 2019.04.19 at 14h 05m 54s.xml">
+      <configuration name="RomanToIntegerTest.resultShouldBe1994" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PalindromeNumberTest - 2019.04.18 at 16h 51m 26s.xml">
-      <configuration name="PalindromeNumberTest" configurationId="JUnit" />
+    <history-entry file="RomanToIntegerTest - 2019.04.19 at 14h 16m 20s.xml">
+      <configuration name="RomanToIntegerTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13517000" />
+    <option name="totallyTimeSpent" value="20457000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -387,17 +398,17 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1080" y="-285" width="1080" height="1834" extended-state="6" />
+    <frame x="0" y="23" width="1920" height="1113" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2813102" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.28434506" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
       <window_info id="Favorites" order="4" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32963374" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.34098738" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3408423" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -409,12 +420,12 @@
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" weight="0.32963374" />
       <window_info anchor="bottom" id="Dependency Viewer" order="12" weight="0.32963374" />
       <window_info anchor="bottom" id="Inspection Results" order="13" weight="0.32963374" />
-      <window_info anchor="bottom" id="Messages" order="14" weight="0.3295063" />
+      <window_info anchor="bottom" id="Messages" order="14" weight="0.32908913" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Maven" order="4" weight="0.32851636" />
+      <window_info anchor="right" id="Maven" order="4" weight="0.32800853" />
       <window_info anchor="right" id="Database" order="5" />
       <window_info anchor="right" id="Palette&#9;" order="6" />
     </layout>
@@ -436,9 +447,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/easy/0001_TwoSum/0001_TwoSum.java" />
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/leetcode.iml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -472,26 +480,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ts/problems/easy/twosum/TwoSum.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="7" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.codecov.yml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="30" column="21" lean-forward="true" selection-start-line="30" selection-start-column="21" selection-end-line="30" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ts/problems/easy/reverseinteger/ReverseInteger.leetcode" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ts/problems/easy/twosum/TwoSum.leetcode" />
     <entry file="file://$PROJECT_DIR$/src/test/java/com/ts/problems/easy/reverseinteger/ReverseIntegerTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="645">
@@ -505,8 +498,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/ts/problems/easy/twosum/TwoSumTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="23" lean-forward="true" selection-start-line="18" selection-start-column="23" selection-end-line="18" selection-end-column="23" />
+        <state relative-caret-position="240">
+          <caret line="16" column="24" lean-forward="true" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="24" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
             <element signature="imports" expanded="true" />
@@ -516,8 +509,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/ts/problems/easy/palindromenumber/PalindromeNumberTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="6" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
+        <state relative-caret-position="855">
+          <caret line="57" column="5" selection-start-line="11" selection-start-column="4" selection-end-line="57" selection-end-column="5" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
             <element signature="imports" expanded="true" />
@@ -525,34 +518,69 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ts/problems/easy/reverseinteger/ReverseInteger.leetcode">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="65" selection-start-line="14" selection-start-column="65" selection-end-line="14" selection-end-column="65" />
+        <state relative-caret-position="270">
+          <caret line="18" column="40" selection-start-line="18" selection-start-column="40" selection-end-line="18" selection-end-column="40" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ts/problems/easy/reverseinteger/ReverseInteger.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ts/problems/easy/twosum/TwoSum.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="13" selection-start-line="13" selection-end-line="65" selection-end-column="25" />
+        <state relative-caret-position="135">
+          <caret line="9" column="4" lean-forward="true" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ts/problems/easy/twosum/TwoSum.leetcode">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ts/problems/easy/palindromenumber/PalindromeNumber.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="33" column="5" selection-start-line="33" selection-start-column="5" selection-end-line="33" selection-end-column="5" />
+        <state relative-caret-position="135">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ts/problems/easy/palindromenumber/PalindromeNumber.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ts/problems/easy/reverseinteger/ReverseInteger.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="93" selection-start-line="3" selection-start-column="93" selection-end-line="3" selection-end-column="93" />
+        <state relative-caret-position="105">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ts/problems/easy/romantointeger/RomanToInteger.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="473">
+          <caret line="55" column="9" selection-start-line="55" selection-start-column="9" selection-end-line="55" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#219#227#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/ts/problems/easy/romantointeger/RomanToIntegerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="810">
+          <caret line="54" column="51" lean-forward="true" selection-start-line="54" selection-start-column="51" selection-end-line="54" selection-end-column="51" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="26" column="7" selection-start-line="26" selection-start-column="7" selection-end-line="26" selection-end-column="7" />
         </state>
       </provider>
     </entry>

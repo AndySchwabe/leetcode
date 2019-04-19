@@ -7,7 +7,7 @@
 package com.ts.problems.easy.palindromenumber;
 
 class PalindromeNumber {
-	public boolean isPalindrome(int x) {
+	protected boolean isPalindrome(int x) {
 		boolean result;
 		String inputString; // string to store casted int in
 		String[] inputArray; // array to store chars in
