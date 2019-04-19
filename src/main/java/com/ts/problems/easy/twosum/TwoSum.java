@@ -1,7 +1,7 @@
 /**
  * https://leetcode.com/problems/two-sum/ 
- * Runtime: 74 ms, faster than 5.03% of Java online submissions for Two Sum.
- * Memory Usage: 38.4 MB, less than 52.65% of Java online submissions for Two Sum.
+ * Runtime: 34 ms, faster than 18.85% of Java online submissions for Two Sum.
+ * Memory Usage: 38.5 MB, less than 44.70% of Java online submissions for Two Sum.
  */
 
 package com.ts.problems.easy.twosum;

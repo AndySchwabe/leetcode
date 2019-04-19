@@ -33,11 +33,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/ts/problems/easy/twosum/TwoSum.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="24" column="35" selection-start-line="24" selection-start-column="35" selection-end-line="24" selection-end-column="35" />
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
+            <state relative-caret-position="45">
+              <caret line="3" column="82" selection-start-line="3" selection-start-column="82" selection-end-line="3" selection-end-column="82" />
             </state>
           </provider>
         </entry>
@@ -342,14 +339,11 @@
       <workItem from="1555510609076" duration="753000" />
       <workItem from="1555513363489" duration="5267000" />
       <workItem from="1555593765487" duration="8098000" />
-      <workItem from="1555678121818" duration="6846000" />
+      <workItem from="1555678121818" duration="7003000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="RomanToIntegerTest_resultShouldBe9 - 2019.04.19 at 11h 22m 56s.xml">
-      <configuration name="RomanToIntegerTest.resultShouldBe9" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="RomanToIntegerTest_resultShouldBe58 - 2019.04.19 at 11h 23m 00s.xml">
       <configuration name="RomanToIntegerTest.resultShouldBe58" configurationId="JUnit" />
     </history-entry>
@@ -377,9 +371,12 @@
     <history-entry file="TwoSumTest - 2019.04.19 at 14h 27m 08s.xml">
       <configuration name="TwoSumTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="TwoSumTest - 2019.04.19 at 14h 28m 10s.xml">
+      <configuration name="TwoSumTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20964000" />
+    <option name="totallyTimeSpent" value="21121000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -570,11 +567,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/ts/problems/easy/twosum/TwoSum.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="24" column="35" selection-start-line="24" selection-start-column="35" selection-end-line="24" selection-end-column="35" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
+        <state relative-caret-position="45">
+          <caret line="3" column="82" selection-start-line="3" selection-start-column="82" selection-end-line="3" selection-end-column="82" />
         </state>
       </provider>
     </entry>
