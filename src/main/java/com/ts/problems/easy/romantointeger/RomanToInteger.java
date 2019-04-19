@@ -1,3 +1,9 @@
+/**
+ * https://leetcode.com/problems/roman-to-integer
+ * Runtime: 10 ms, faster than 75.00% of Java online submissions for Roman to Integer.
+ * Memory Usage: 42.6 MB, less than 5.05% of Java online submissions for Roman to Integer.
+ */
+
 package com.ts.problems.easy.romantointeger;
 
 import java.util.HashMap;
@@ -29,9 +35,7 @@ public class RomanToInteger {
 
 			if (i != s.length()-1) {
 				num1 = s.substring(i, (i+1));
-				System.out.println("num1: " + num1 + " iter: " + i);
 				num2 = s.substring(i+1, (i+2));
-				System.out.println("num2: " + num2 + " iter: " + i);
 				val1 = map.get(num1);
 				val2 = map.get(num2);
 			
