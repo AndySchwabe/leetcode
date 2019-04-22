@@ -25,3 +25,6 @@ hs_err_pid*
 # Bin Folder
 bin*
 target*
+
+# IDEA Workspace
+.idea/workspace.xml
