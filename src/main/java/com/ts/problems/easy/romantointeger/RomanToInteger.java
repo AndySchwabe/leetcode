@@ -9,11 +9,10 @@ package com.ts.problems.easy.romantointeger;
 import java.util.HashMap;
 import java.util.ArrayList;
 
-public class RomanToInteger {
+class RomanToInteger {
 	protected int romanToInt(String s) {
 		ArrayList<String> resultArrayList = new ArrayList<String>();
 		int result;
-		String[] inputArray; // array to store chars in
 		result = 0;
 
 		HashMap<String, Integer> map = new HashMap<>();
