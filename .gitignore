@@ -28,3 +28,11 @@ target*
 
 # IDEA Workspace
 .idea/workspace.xml
+
+#Eclipse crap
+.project
+.classpath
+.settings*
+
+#Python 
+venv*
