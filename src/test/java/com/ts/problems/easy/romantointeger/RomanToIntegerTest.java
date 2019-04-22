@@ -7,7 +7,7 @@ package com.ts.problems.easy.romantointeger;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
-public class RomanToIntegerTest {
+class RomanToIntegerTest {
 
 	@Test
 	protected void resultShouldBe3() {
