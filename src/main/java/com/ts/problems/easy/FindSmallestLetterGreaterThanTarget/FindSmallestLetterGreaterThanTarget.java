@@ -1,6 +1,10 @@
-package com.ts.problems.easy.FindSmallestLetterGreaterThanTarget;
+/**
+ * https://leetcode.com/problems/find-smallest-letter-greater-than-target/
+ * Runtime: 0 ms, faster than 100.00% of Java online submissions for Find Smallest Letter Greater Than Target.
+ * Memory Usage: 39.9 MB, less than 57.07% of Java online submissions for Find Smallest Letter Greater Than Target.
+ */
 
-import java.util.ArrayList;
+package com.ts.problems.easy.FindSmallestLetterGreaterThanTarget;
 
 class FindSmallestLetterGreaterThanTarget {
 	protected char nextGreatestLetter(char[] letters, char target) {
