@@ -6,7 +6,7 @@ deploy:
   provider: releases
   api_key:
     secure: g2fpM98YvoT4r/OJiDuzrki2GADuic4CQOEni56DVvzolQ2xXKNR39YrHcJdYHZCsenL/a90jDptHi5BGnmofTfTkcOah5yZVGFcasZea1e2Q5Dk27+3CFhRisAveJgBQjMg8KyhHmk72OmIzYRnNVW0O/QEsq6RD72csvTFhSkGVGH9x5nwJzg4UKE5vKtSiRvOIl9hOnDJJQasFEAiwoOu+G2+xH37UeYJyDRthCdP8CBCQXLTxbmuUmZnlmAJpi+NKP4Yg6B2cUfG7bblhaPIfHHBNkZiRbzaBQhMdUOkbE83zoX6LdFYy2o879NLBUY0+/WoAdxKOD6dSuvPI7f8bCYtO7aJfeDDXgFUNT7oTioo736ML+qPYmV1W0IXaUbAocw5b0W4yBgXh0454x2etpjgc6ZcUZnbIAlK/8IcoF6J1LypvJ6PPbJ2tT0PoIScpT5HOamGIDCL7EsGXiKxNommYOL5h76CnZTaXOaNVypc1KqXyxzMuNkmHRhLDmwbzytyeBRJyVZeTNgIPYs/42MkLAr83F9IaC3aiRiKNfPBmH5QlSbwlNLHWKq9Avuns145rPAlVF9L0YxZHpbNtcGEnzIOhsYQ9EGNb/62QEyjBtSmsZW8pgbmDLp4NbJnihIaD65MnvtzaAAiA6QK2QVreQQOGClurf2rhdo=
-  file: 'target/leetcode-1.jar'
+  file: 'target/leetcode-v1.06.jar'
   skip_cleanup: true
   on:
     tags: true
