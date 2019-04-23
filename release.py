@@ -17,8 +17,8 @@ class Release:
 
         status = self.repo.git_status()
 
-        if status:
-            sys.exit("Git Repo has committed or unpushed changes. Exiting...")
+        #if status:
+        #    sys.exit("Git Repo has uncommitted changes. Exiting...")
 
         tags = self.repo.git_tags()
 
@@ -36,13 +36,12 @@ class Release:
 
         for line in travis:
             if line.startswith("  file: 'target/leetcode"):
-                if line[24 : (len(line) - 6)] > self.version:
+                if line[25 : (len(line) - 6)] > self.version:
                     sys.exit(
                         "Your travis version number is higher than the desired version number. Exiting..."
                     )
                 else:
-                    line = line.replace(line[24 : (len(line) - 6)], str(self.version))
-                break
+                    line = line.replace(line[25 : (len(line) - 6)], str(self.version))
             new_travis += line
 
         new_travis = "".join(new_travis)
@@ -64,12 +63,11 @@ class Release:
                         "Your pom version number is higher than the desired version number. Exiting..."
                     )
                 else:
-                    line = line.replace(line[24 : (len(line) - 6)], str(self.version))
-                break
+                    line = line.replace(line[10 : (len(line) - 11)], str(self.version))
             new_pom += line
 
         new_pom = "".join(new_pom)
-        overwrite_pom = open("pom.xml")
+        overwrite_pom = open("pom.xml", "w")
         overwrite_pom.write(new_pom)
         overwrite_pom.close()
 
@@ -92,7 +90,5 @@ def main():
 
     releaser.commit_and_tag()
 
-
 if __name__ == "__main__":
     main()
-
