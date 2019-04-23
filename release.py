@@ -81,7 +81,7 @@ class Release:
         self.repo.git_add("pom.xml")
         self.repo.git_add(".travis.yml")
         commit_message = "Updating version to: " + self.version
-        self.repo.git_commit(commit_message, "Andy Schwabe <andy.schwabe@infor.com>", ".")
+        self.repo.git_commit(commit_message, "Andy Schwabe <andy.schwabe@infor.com>")
         self.repo.git_tag(self.version)
         self.repo.git_push()
 
