@@ -80,7 +80,7 @@ class Release:
         """Method to stage changes, commit changes, tag commit, and push to origin"""
         self.repo.git_add("pom.xml")
         self.repo.git_add(".travis.yml")
-        commit_message = "Updating version to " + self.version
+        commit_message = "Version " + self.version
         self.repo.git_commit(commit_message)
         self.repo.git_tag(self.version)
         self.repo.git_push()
