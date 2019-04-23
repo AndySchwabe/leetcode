@@ -1,4 +1,4 @@
-package com.ts.problems.easy.FindSmallestLetterGreaterThanTarget;
+package com.ts.problems.easy.findsmallestlettergreaterthantarget;
 
 
 import org.junit.jupiter.api.Assertions;
