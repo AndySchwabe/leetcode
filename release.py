@@ -20,7 +20,7 @@ class Release:
         if status:
             sys.exit("Git Repo has committed or unpushed changes. Exiting...")
 
-        tags = (self.repo.git_tags()).sort()
+        tags = self.repo.git_tags()
 
         if tags[len(tags) - 1] > self.version:
             sys.exit("Specified lower git tag version than current version. Exiting...")
