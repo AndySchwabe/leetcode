@@ -22,8 +22,10 @@ class Release:
 
         status = self.repo.git_status()
 
-        # if status:
-        #    sys.exit("Git Repo has uncommitted changes. Exiting...")
+        if status:
+            sys.exit("Git Repo has uncommitted changes. Exiting...")
+
+        self.repo.git_checkout("master")
 
         tags = self.repo.git_tags()
 
