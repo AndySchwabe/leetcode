@@ -13,16 +13,16 @@ class Release:
 
         self.version = args.version
 
-        if self.version.startswith('v'):
+        if self.version.startswith("v"):
             pass
         else:
-            self.version = 'v' + self.version
+            self.version = "v" + self.version
 
         self.repo = gitapi.Repo("/Users/andy/leetcode")
 
         status = self.repo.git_status()
 
-        #if status:
+        # if status:
         #    sys.exit("Git Repo has uncommitted changes. Exiting...")
 
         tags = self.repo.git_tags()
@@ -81,7 +81,7 @@ class Release:
         self.repo.git_add("pom.xml")
         self.repo.git_add(".travis.yml")
         commit_message = "Updating version to " + self.version
-        self.repo.git_commit(commit_message, "Andy Schwabe <andy.schwabe@infor.com>")
+        self.repo.git_commit(commit_message, "Andy Schwabe <andy.schwabe@infor.com>", "*")
         self.repo.git_tag(self.version)
         self.repo.git_push()
 
@@ -99,6 +99,7 @@ def main():
     releaser.bump_pom()
 
     releaser.commit_and_tag()
+
 
 if __name__ == "__main__":
     main()
