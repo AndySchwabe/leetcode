@@ -43,12 +43,12 @@ class Release:
 
         for line in travis:
             if line.startswith("  file: 'target/leetcode"):
-                if line[25 : (len(line) - 6)] > self.version:
+                if line[25: (len(line) - 6)] > self.version:
                     sys.exit(
                         "Your current travis version number is higher than the desired version number. Exiting..."
                     )
                 else:
-                    line = line.replace(line[25 : (len(line) - 6)], self.version)
+                    line = line.replace(line[25: (len(line) - 6)], self.version)
             new_travis += line
 
         new_travis = "".join(new_travis)
@@ -65,12 +65,12 @@ class Release:
 
         for line in pom:
             if line.startswith("\t<version>"):
-                if line[10 : (len(line) - 11)] > self.version:
+                if line[10: (len(line) - 11)] > self.version:
                     sys.exit(
                         "Your current pom version number is higher than the desired version number. Exiting..."
                     )
                 else:
-                    line = line.replace(line[10 : (len(line) - 11)], self.version)
+                    line = line.replace(line[10: (len(line) - 11)], self.version)
             new_pom += line
 
         new_pom = "".join(new_pom)
